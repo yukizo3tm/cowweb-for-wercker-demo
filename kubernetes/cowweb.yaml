@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cowweb
-        image: iad.ocir.io/gse00014510/acme-web-app/cowweb:v1.0
+        image: iad.ocir.io/handson190529/handson-007/cowweb:v1.0
         ports:
         - name: api
           containerPort: 8080
